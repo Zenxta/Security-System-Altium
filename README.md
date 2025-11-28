@@ -15,11 +15,19 @@ The system's core mechanism detects unauthorized access by sensing interruptions
 ### **Components**
 
 | Component | Type | Quantity | Key Role |
-| **Transistor** | BC547 (BJT) | 1 | Amplifies the weak photodiode signal to trigger SCR|
-| **Latching Device** | TYN612 (SCR) | 1 | Maintains alarm status until power is interrupted|
-| **Sensing Pair** | IR LED, IR Diode | 1, 1 | Creates and detects the invisible security beam|
-| **Adjuster** | Potentiometer ($100\ k\Omega$) | 1 | Fine-tunes the tripping point/sensitivity|
-| **Output** | Buzzer | 1 | Audible alert signal|
+| **Transistor** | BC547 (BJT) | 1 | Amplifies the weak photodiode signal to trigger SCR |
+| **Latching Device** | TYN612 (SCR) | 1 | Maintains alarm status until power is interrupted |
+| **Sensing Pair** | IR LED, IR Diode | 1, 1 | Creates and detects the invisible security beam |
+| **Adjuster** | Potentiometer ($100\ k\Omega$) | 1 | Fine-tunes the tripping point/sensitivity |
+| **Output** | Buzzer | 1 | Audible alert signal |
+
+### **Project Files**
+
+All files required for manufacturing and design review are included in the repository.
+
+* **Schematic:** `Security_Alarm_System.SchDoc`
+* **PCB Layout:** `Security_Alarm_System.PcbDoc`
+* **Gerber Files:** `Gerber_Files.zip`
 
 ---
 
@@ -63,16 +71,3 @@ The circuit was verified on a breadboard and permanently assembled on a perforat
 
 <img width="800" height="600" alt="Final enclosed product" src="https://github.com/Zenxta/Security-System-Altium/blob/main/hdw-2.png?raw=true" />
 
-### **Project Files**
-
-All files required for manufacturing and design review are included in the repository.
-
-* **Schematic:** `Security_Alarm_System.SchDoc`
-* **PCB Layout:** `Security_Alarm_System.PcbDoc`
-* **Gerber Files:** `Gerber_Files.zip`
-
-
-### **Future Work**
-
-* **Microcontroller Integration:** Incorporating an Arduino or ESP32 to enable advanced features like automatic alarm reset, timed alerts and data logging
-* **Wireless Notifications:** Integrating a GSM module or IoT system to send SMS alerts or app notifications upon intrusion
