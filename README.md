@@ -1,7 +1,7 @@
 # Alarm Security System 
 
 This project develops a low-cost and reliable Security Alarm System utilizing a Bipolar Junction Transistor (BJT) and a Silicon-Controlled Rectifier (SCR).
-The system's core mechanism detects unauthorized access by sensing interruptions in an Infrared (IR) beam. The critical feature is the use of the SCR, which ensures a latching mechanism—the alarm remains active until manually reset even if the triggering event is brief.
+The system's core mechanism detects unauthorized access by sensing interruptions in an Infrared (IR) beam. The critical feature is the use of the SCR, which ensures a latching mechanism — the alarm remains active until manually reset even if the triggering event is brief.
 
 ### **Key Features**
 
@@ -19,8 +19,8 @@ The system's core mechanism detects unauthorized access by sensing interruptions
 | **Sensing Pair** | IR LED, IR Diode | 1, 1 | Creates and detects the invisible security beam |
 | **Adjuster** | Potentiometer ($100\ k\Omega$) | 1 | Fine-tunes the tripping point/sensitivity |
 | **Output** | Buzzer | 1 | Audible alert signal |
-| **Power** | Li-ion Cell (18650) | 2 | Rechargeable power source for the circuit. |
-| **Charging** | TP4056 Module | 1 | Facilitates Type-C charging for the cells within the enclosure. |
+| **Power** | Li-ion Cell (18650) | 2 | Rechargeable power source for the circuit |
+| **Charging** | TP4056 Module | 1 | Facilitates Type-C charging for the cells within the enclosure |
 
 ### **Project Files**
 
