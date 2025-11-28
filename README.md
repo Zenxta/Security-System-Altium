@@ -12,14 +12,15 @@ The system's core mechanism detects unauthorized access by sensing interruptions
 
 ---
 
-### **Components**
-
-| Component | Type | Quantity | Key Role |
+| Component | Type | Quantity | Description |
+| :--- | :--- | :--- | :--- |
 | **Transistor** | BC547 (BJT) | 1 | Amplifies the weak photodiode signal to trigger SCR |
 | **Latching Device** | TYN612 (SCR) | 1 | Maintains alarm status until power is interrupted |
 | **Sensing Pair** | IR LED, IR Diode | 1, 1 | Creates and detects the invisible security beam |
 | **Adjuster** | Potentiometer ($100\ k\Omega$) | 1 | Fine-tunes the tripping point/sensitivity |
 | **Output** | Buzzer | 1 | Audible alert signal |
+| **Power** | Li-ion Cell (18650) | 2 | Rechargeable power source for the circuit. |
+| **Charging** | TP4056 Module | 1 | Facilitates Type-C charging for the cells within the enclosure. |
 
 ### **Project Files**
 
@@ -58,10 +59,6 @@ The Schematic and PCB Layout were designed using Altium Designer software
 ### **Hardware Implementation**
 
 The circuit was verified on a breadboard and permanently assembled on a perforated board and then housed in a custom 3D-printed enclosure.
-
-#### **Breadboard Prototype**
-
-<img width="800" height="600" alt="Breadboard connection of the Alarm Security System" src="https://github.com/Zenxta/Security-System-Altium/blob/main/bb.png?raw=true" />
 
 #### **Final Assembly & Enclosure**
 
